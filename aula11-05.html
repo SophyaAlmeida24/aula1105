@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            border: 3px red solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .card {
+            border: 3px blue solid;
+            width: 300px;
+            height: 150px;
+            padding: 15px;
+        }
+        .cabecalho {
+            width: 100%;
+            border: 3px purple dashed;
+            display: flex;
+        }
+        .informacoes{
+            border: 3px red solid;
+            width: 100%;
+        }
+        .linhabaixo {
+            display: flex;
+            justify-content: space-around; /*  */
+            border: 3px orangered dashed;
+        }
+        .nome{
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .nomeEscola {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card2 {
+            border: 3px green solid;
+            width: 300px;
+            height: 150px;
+        }
+        .foto{
+            border: 2px black solid;
+            width: 50px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="cabecalho">
+            <div class="foto"></div>
+            <div class="informacoes">
+                <p class="nome">Joao da Silva</p>
+                <div class="linhabaixo">
+                    <p>3º B</p>
+                    <p>24/08/2008</p>
+                </div>
+            </div>
+        </div>
+        <p class="nomeEscola">E. E. Marlene Leite da Silva</p>
+    </div>
+</body>
+</html>
